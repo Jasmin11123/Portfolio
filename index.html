@@ -7,8 +7,9 @@
   <title>JASMIN SARELLA | Portfolio</title>
 </head>
 <body>
-  <nav class="navbar">
-  <ul>
+ <nav class="navbar">
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+  <ul id="nav-links">
     <li><a href="#About">About</a></li>
     <li><a href="#Skills">Skills</a></li>
     <li><a href="#Projects">Projects</a></li>
@@ -101,6 +102,15 @@
   }
 
   document.addEventListener("DOMContentLoaded", type);
+</script>
+
+  <script>
+  const toggleBtn = document.getElementById('menu-toggle');
+  const navLinks = document.getElementById('nav-links');
+
+  toggleBtn.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
 </script>
 
 </body>
