@@ -18,7 +18,7 @@ h2 {
 }
 
 ul {
-  list-style-type: square;
+  list-style-type: star;
   margin-left: 20px;
 }
 
@@ -34,7 +34,7 @@ a:hover {
 .container {
   max-width: 800px;
   margin: auto;
-  background-color: Strong cyan;
+  background-color: #00ffff; /* or "cyan" or any hex code you like */
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
@@ -48,7 +48,7 @@ a:hover {
   display: inline-block;
   padding: 10px 20px;
   margin: 10px;
-  background-color: #1abc9c;
+  background-color: #b00715;
   color: white;
   text-decoration: none;
   border-radius: 25px;
@@ -57,7 +57,7 @@ a:hover {
 }
 
 .animated-button:hover {
-  background-color: #16a085;
+  background-color: #0704c2;
   transform: scale(1.05);
   box-shadow: 0 8px 12px rgba(0,0,0,0.2);
 }
@@ -65,7 +65,7 @@ a:hover {
   text-align: center;
   font-size: 28px;
   margin-bottom: 40px;
-  color: #2c3e50;
+  color: #ae07e6;
   min-height: 50px;
   font-weight: bold;
   animation: fadeIn 2s ease-in;
