@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-  color: #34495e;
+  color: #f00c0c;
   border-bottom: 2px solid #ccc;
   padding-bottom: 5px;
 }
@@ -23,7 +23,7 @@ ul {
 }
 
 a {
-  color: #1abc9c;
+  color: #088c23;
   text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ a:hover {
   display: inline-block;
   padding: 10px 20px;
   margin: 10px;
-  background-color: #b00715;
+  background-color: #a504c2;
   color: white;
   text-decoration: none;
   border-radius: 25px;
