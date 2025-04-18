@@ -130,6 +130,52 @@ a:hover {
     height: auto;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+.navbar li a {
+  padding: 10px;
+  display: block;
+}
+.intro-text {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0;
+}
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #1abc9c;
+}
+
+/* Responsive styles for hamburger */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    text-align: right;
+  }
+
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+
+  .navbar ul.show {
+    display: flex;
+  }
+
+  .navbar li {
+    margin: 10px 0;
+  }
+}
 
 
 
