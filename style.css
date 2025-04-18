@@ -70,5 +70,34 @@ a:hover {
   font-weight: bold;
   animation: fadeIn 2s ease-in;
 }
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 15px 0;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #1abc9c;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #16a085;
+}
+
 
 
