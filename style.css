@@ -96,7 +96,7 @@ a:hover {
 }
 
 .navbar li a:hover {
-  color: #16a085;
+  color: #1ba016;
 }
 /* Mobile Responsive */
 @media (max-width: 768px) {
@@ -147,7 +147,7 @@ html {
   font-size: 28px;
   cursor: pointer;
   padding: 10px 20px;
-  color: #1abc9c;
+  color: #11ddaa;
 }
 
 /* Responsive styles for hamburger */
