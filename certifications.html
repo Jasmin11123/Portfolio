@@ -3,7 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Certifications | Jasmin Sarella</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <style>
+    .cert-container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .cert-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .cert-gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .cert-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+  </style>
 </head>
 <body>
   <nav class="navbar">
@@ -15,8 +46,8 @@
     </ul>
   </nav>
 
-  <div class="container">
-    <h1>CERTIFICATIONS</h1>
+  <div class="cert-container">
+    <h1>My Certifications</h1>
     <div class="cert-gallery">
       <img src="cert1.jpg" alt="Certification 1">
       <img src="cert2.jpg" alt="Certification 2">
@@ -27,3 +58,4 @@
   </div>
 </body>
 </html>
+
