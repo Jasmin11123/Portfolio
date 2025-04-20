@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  color: #2c3e50;
+  color: #2060a1;
   font-size: 36px;
 }
 
@@ -73,7 +73,7 @@ a:hover {
 .navbar {
   position: sticky;
   top: 0;
-  background-color: #ffffff;
+  background-color: #0d0101;
   padding: 15px 0;
   z-index: 999;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -90,7 +90,7 @@ a:hover {
 
 .navbar li a {
   text-decoration: none;
-  color: #1abc9c;
+  color: #8e12db;
   font-weight: bold;
   transition: color 0.3s ease;
 }
@@ -161,7 +161,7 @@ html {
     display: none;
     flex-direction: column;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #0d0101;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     width: 100%;
     margin-top: 10px;
