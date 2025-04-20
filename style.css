@@ -2,7 +2,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 20px;
-  background-color: #c309ed;
+  background-color: #050000;
   color: #333;
 }
 
@@ -34,7 +34,7 @@ a:hover {
 .container {
   max-width: 800px;
   margin: auto;
-  background-color: #050000; /* or "cyan" or any hex code you like */
+  background-color: #05b5b5;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
